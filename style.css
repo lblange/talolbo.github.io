@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+  background: blue;
+
+}
+
+body{
+  background-image: url(https://i.pinimg.com/474x/81/88/8b/81888b17cbc47b70a11778d57b9f79fd.jpg);
+  background-size: cover;
+  background-color: white;
+
+  font-family: monospace;
+
+  ::-moz-selection { background: black; color: #fff; }
+	::selection { background: black; color: #fff; }
+}
+
+h2 {
+   /*c-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  /*-webkit-text-stroke: 0.5mm black;)*/
+  font-size: 4rem;
+}
+
+section {
+}
+
+
+/*
+#nav 
+*/
+
+#nav {
+  position: sticky;
+  top: 0px;
+
+}
+
+#nav a {
+  background: blue; color: #fff;
+}
+
+#nav a:hover {
+  background: blue;
+  color: white;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 50px;
+
+  padding: 10px;
+
+  font-size: 1.2rem;
+}
+
+
+
+/*
+#ueber
+*/
+
+h1 {
+  font-size: 6rem;
+  color: blue;
+
+  padding-top: 10px;
+}
+
+#ueber p{
+  width: 60vw;
+  padding-top: 10px;
+
+  font-size: 1.3rem;
+  font-family: monospace;
+
+  line-height: 29px;
+}
+.blue {
+  background: blue; 
+  color: #fff;
+  padding: 5px;
+}
+
+/*
+#projekte 
+*/
+
+div {
+  border: 0px solid;
+  padding: 0px;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+  height: 40vh;
+}
+
+h2 {
+  color: blue;
+  font-size: 6rem;
+}
+
+div:hover {
+  justify-content: left;
+  align-items: flex-end;
+}
+
+div:hover h2{
+  font-size: 1rem;
+  background: blue; color: #fff;
+
+}
+
+.smallpost:hover {
+  background-image: url(https://i.pinimg.com/736x/da/bf/c9/dabfc9aa5f6e91b4d784f9d6ffcb8235.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pesky:hover {
+  background-image: url(https://i.pinimg.com/736x/90/51/6f/90516f8437758af67dca4302f29948e1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.thinking:hover {
+  background-image: url(https://i.pinimg.com/736x/19/54/1c/19541c517384727d113f964d059647ce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fanscans:hover {
+  background-image: url(https://annoying-tookit.com/fanscans/assets/img/schere.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.gestrige_weisheiten:hover {
+  background-image: url(https://i.pinimg.com/736x/2b/19/e7/2b19e736c0a8c2426f3f666850a14bdd.jpg);
+  background-size: 120%;
+  background-position: center;
+}
+
+.elbe:hover {
+  background-image: url(https://i.pinimg.com/736x/05/63/c0/0563c0585293c8fb4cf68d0f9bb70830.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+ /*
+    	CSS RESET
+*/
+
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+ }
